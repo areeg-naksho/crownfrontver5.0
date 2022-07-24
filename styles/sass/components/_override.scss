@@ -1,0 +1,27 @@
+.ant-form-item-control-input-content>.ant-input,
+.ant-input-number-in-form-item {
+  width: 100% !important;
+}
+
+.ant-select-item-option-content {
+  color: var(--second-color);
+}
+
+.Skeleton {
+  width: 250px !important;
+  height: 350px !important;
+}
+
+@media (min-width: 420px) and (max-width:500px) {
+  .Skeleton {
+    width: 100px !important;
+    height: 200px !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width:768px) {
+  .Skeleton {
+    width: 100px !important;
+    height: 200px !important;
+  }
+}

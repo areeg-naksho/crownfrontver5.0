@@ -1,0 +1,93 @@
+.products {
+  margin: 20px;
+  font-size: 16px;
+
+  table {
+    margin: auto;
+  }
+
+  .items {
+    height: 130px;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 20px;
+    font-weight: 600;
+    max-width: 330px;
+  }
+
+  tr {
+    border: 1px solid rgb(185, 175, 175);
+  }
+
+  th {
+    padding: 20px;
+    text-align: center;
+  }
+
+  td {
+    text-align: center;
+    max-width: 330px;
+  }
+
+  .quantity {
+    display: flex;
+    width: 140px;
+    height: 45px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin: 20px;
+
+    .value {
+      border: none;
+      width: 45px;
+      height: 100%;
+      text-align: center;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .chg-q {
+      width: 46px;
+      height: 100%;
+      cursor: pointer;
+      border: none;
+    }
+  }
+
+  .coupon-td {
+    .coupon {
+      margin: 20px;
+      height: 75px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      max-width: 500px;
+
+      .text-coupon {
+        padding: 20px;
+        border-radius: 20px;
+        border: 1px solid gray;
+        outline: none;
+        height: 50px;
+      }
+
+      .btn-coupon {
+        padding: 20px;
+        border-radius: 30px;
+        border: 1px solid gray;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .btn-coupon:hover {
+        background-color: rgb(107, 107, 160);
+      }
+    }
+  }
+}

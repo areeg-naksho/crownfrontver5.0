@@ -1,0 +1,113 @@
+.ant-input {
+  width: 234px !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  border: 2px solid var(--second-color) !important;
+  background-color: var(--first-color) !important;
+}
+
+.continer-search {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  gap: 10px;
+
+  .search-none {
+    display: none;
+  }
+
+  .search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+
+    ::placeholder {
+      color: var(--second-color) !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+    }
+
+    .icon-search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background-color: var(--second-color);
+      height: 30px;
+      border-radius: 3px;
+      width: 90px;
+      cursor: pointer;
+    }
+
+    .search_input {
+      border: 2px solid var(--second-color);
+      color: var(--second-color) !important;
+    }
+
+    .ant-select-selector {
+      width: 234px !important;
+      border: 5px solid var(--second-color);
+    }
+  }
+
+  .select {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.ant-select-selection-placeholder {
+  color: var(--second-color) !important;
+}
+
+.ant-select-item-option-content {
+  a {
+    color: var(--second-color) !important;
+    width: 100% !important;
+  }
+}
+
+.ant-select-selection-item {
+  a {
+    color: var(--second-color);
+  }
+}
+
+@media (min-width: 769px) and (max-width:991px) {
+  .continer-search {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 500px) and (max-width:768px) {
+  .continer-search {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width:420px) {
+  .continer-search {
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    gap: 10px;
+  }
+}

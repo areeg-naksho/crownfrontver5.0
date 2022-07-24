@@ -1,0 +1,20 @@
+.Check_Out {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  form {
+    display: flex;
+    flex-direction: row;
+    // grid-template-columns: repeat(auto-fill, min-max(250px, 1fr));
+    // width: 100%;
+    // height: fit-content;
+  }
+  // gap: 5px;
+  // div {
+  //   display: flex;
+  //   justify-content: flex-start;
+  //   align-items: flex-start;
+  // }
+}

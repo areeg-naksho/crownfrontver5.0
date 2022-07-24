@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Montserrat.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--second-color) !important;
+}
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+.container {
+  padding: 15px 245px;
+}
+button {
+  background-color: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
